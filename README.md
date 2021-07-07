@@ -77,3 +77,7 @@ First Name Last Name Employee_Serial Specialization  Band Level    Pay  Employme
 1      TSS      [<__main__.SSR object at 0x000001406FBD05B0>]            300
 ```
 This file only touches the surface of what is possible with the use of Custom Objects in Python.  With multiple similar objects, you are able to create parent classes (more generalized classes) and child classes which can extract or inherit methods and properties from the parent classes (Inheritance).  
+
+# Like This Repo?  
+ 
+If you found this repo helpful in learning or understanding how to create custom classes and objects in Python, feel free to give it a star.  Feel free to clone this at any time and use or build upon it.  
