@@ -33,4 +33,27 @@ class  SSR(object):
 ```
 Here you can see the SSR object is being initialized with several attributes, such as first name, last name, etc.  There is a counter method within the class object that we can call upon anytime to calculate the total number of SSR's working at IBM at any given time.  
 
-# Division Class (IBM Divisions - GTS, TSS)
+# Division Class (IBM Divisions)
+
+```
+class Division:
+    
+    def __init__(self, division, max_employees):
+        self.division = division
+        self.max_employees = max_employees
+        self.employees = []
+    division_counter = 0   
+
+    # A class method to add new employees to division per rules business logic
+    def add_employee_division(self, employee):
+        if len(self.employees) <  self.max_employees:
+            self.employees.append(employee)
+            return True 
+        return False
+        # Adds 1 to the counter for every instance of the object 
+        Division.division_counter +=1
+
+    def division_dataframe(self):
+        return {'Division': self.division, 'Employees': self.employees, 'Max Employees': self.max_employees}
+
+```
