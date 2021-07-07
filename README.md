@@ -57,3 +57,14 @@ class Division:
         return {'Division': self.division, 'Employees': self.employees, 'Max Employees': self.max_employees}
 
 ```
+
+The basic idea behind this object is to be able to use some business logic to determine max amount of employees/SSR allowed in each division and to add SSR to the Division object.  After the initialization, we can call the add_employee_division method, which will allow us to add employees to whichever Division Object we want.  
+
+# Dataframes with Pandas
+
+```
+First Name Last Name Employee_Serial Specialization  Band Level    Pay  Employment Length
+0    Brandon    Mochel          4J4122  Power Systems           4  45000                 23
+1     Melisa    Mochel          4J4123       System X           2  38000                 12
+2      Blake     Birch          4J4358     Lenovo PCD           1  35000                  4
+```
