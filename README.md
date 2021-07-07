@@ -31,3 +31,6 @@ class  SSR(object):
         return {'First Name': self.first, 'Last Name': self.last, 'Employee_Serial': self.employee_serial, 'Specialization': self.specialization, 'Band Level': self.band_level, 'Pay': self.pay, 'Employment Length': self.employment_length}
         
 ```
+Here you can see the SSR object is being initialized with several attributes, such as first name, last name, etc.  There is a counter method within the class object that we can call upon anytime to calculate the total number of SSR's working at IBM at any given time.  
+
+# Division Class (IBM Divisions - GTS, TSS)
