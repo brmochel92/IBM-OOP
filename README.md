@@ -8,7 +8,9 @@ ___
 
 ## Intro
 
-Custom classes are an important feature of Python and necessary for OOP.  In this file, we are creating two custom objects necessary for further operations. 
+In this file, we are creating two custom objects, SSR (Job Title) and Division.  Imagine you have these two custom objects and would like to be able to add SSR's to certain Divisions within a company.  
+
+We could eventually take this to another level by introducing inheritance and nominating the Division class object to be the parent class and by creating additional class objects to reference the specific divisions (TSS, GTS, etc).  Doing this, we are able to keep our code base more concise and simplistic, allowing the parent class to house the majority of the needed initialized attributes.  Any new methods can be introduced in the child class objects
 
 # SSR Class (IBM job role)
 
