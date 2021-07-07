@@ -62,6 +62,7 @@ The basic idea behind this object is to be able to use some business logic to de
 
 # Dataframes with Pandas
 
+## SSR Object
 ```
 First Name Last Name Employee_Serial Specialization  Band Level    Pay  Employment Length
 0    Brandon    Mochel          4J4122  Power Systems           4  45000                 23
