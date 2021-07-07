@@ -8,7 +8,7 @@ ___
 
 ## Intro
 
-Custom classes are an important feature of Python and necessary for OOP.  In this file, we are creating two custom objects
+Custom classes are an important feature of Python and necessary for OOP.  In this file, we are creating two custom objects necessary for further operations. 
 
 # SSR Class (IBM job role)
 
