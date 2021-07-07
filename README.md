@@ -76,3 +76,4 @@ First Name Last Name Employee_Serial Specialization  Band Level    Pay  Employme
 0      GTS  [<__main__.SSR object at 0x000001406FBD0610>, ...            500
 1      TSS      [<__main__.SSR object at 0x000001406FBD05B0>]            300
 ```
+This file only touches the surface of what is possible with the use of Custom Objects in Python.  With multiple similar objects, you are able to create parent classes (more generalized classes) and child classes which can extract or inherit methods and properties from the parent classes (Inheritance).  
