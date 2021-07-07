@@ -62,6 +62,12 @@ The basic idea behind this object is to be able to use some business logic to de
 
 # Dataframes with Pandas
 
+When we want to see what is going on inside of our Class Objects, we can always print out a dictionary, such as below.  This works for general use, but sometimes we need more.
+``` 
+{'first': 'Brandon', 'last': 'Mochel', 'employee_serial': '4J4122', 'specialization': 'Power Systems', 'band_level': 4, 'pay': 45000, 'employment_length': 23}
+```
+With pandas, we can convert our Objects to Dataframes which will make data analysis and manipulation easier.
+
 ## SSR Object
 ```
 First Name Last Name Employee_Serial Specialization  Band Level    Pay  Employment Length
