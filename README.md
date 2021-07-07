@@ -10,7 +10,8 @@ ___
 
 Custom classes are an important feature of Python and necessary for OOP.  In this file, we are creating two custom objects
 
-`class  SSR(object):
+```
+class  SSR(object):
     # counter for total number of SSR instances
     ssr_counter = 0
     def __init__(self, first, last, employee_serial, specialization, band_level, pay, employment_length):
@@ -46,4 +47,4 @@ class Division:
 
     def division_dataframe(self):
         return {'Division': self.division, 'Employees': self.employees, 'Max Employees': self.max_employees}
-`
+```
