@@ -70,6 +70,7 @@ First Name Last Name Employee_Serial Specialization  Band Level    Pay  Employme
 2      Blake     Birch          4J4358     Lenovo PCD           1  35000                  4
 ```
 ## Division Object
+### Notice the object being printed out within each Division Instance (GTS/TSS) - Success!
 ```
   Division                                          Employees  Max Employees
 0      GTS  [<__main__.SSR object at 0x000001406FBD0610>, ...            500
