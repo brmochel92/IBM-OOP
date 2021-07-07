@@ -69,11 +69,9 @@ First Name Last Name Employee_Serial Specialization  Band Level    Pay  Employme
 1     Melisa    Mochel          4J4123       System X           2  38000                 12
 2      Blake     Birch          4J4358     Lenovo PCD           1  35000                  4
 ```
-## Division Objects
+## Division Object
 ```
   Division                                          Employees  Max Employees
 0      GTS  [<__main__.SSR object at 0x000001406FBD0610>, ...            500
 1      TSS      [<__main__.SSR object at 0x000001406FBD05B0>]            300
-  Division                                      Employees  Max Employees
-1      TSS  [<__main__.SSR object at 0x000001406FBD05B0>]            300
 ```
